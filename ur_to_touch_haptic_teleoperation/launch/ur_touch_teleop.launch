@@ -13,7 +13,7 @@
         ADD UR5 moveit launch
   -->
   <arg name="debug" default = "false"/>
-  <arg name="omni_rate" default="100"/>
+  <arg name="omni_rate" default="1000"/>
   
   <include file="$(find omni_common)/launch/omni_state.launch">
     <arg name="units" value="m"/>
